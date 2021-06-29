@@ -29,9 +29,8 @@
                 "confirmation": "ty1234789yt410"
             }
         ],
-        "activities": [
+        "restaurants": [
             {
-                "type": "restaurant",
                 "time": "19:00",
                 "date": "Jul 4",
                 "name": "Palace Grill",
