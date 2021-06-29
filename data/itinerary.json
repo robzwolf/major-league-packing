@@ -1,0 +1,43 @@
+{
+    "itinerary": {
+        "flights": [
+            {
+                "departureTime": "06:50",
+                "arrivalTime": "09:20",
+                "date": "Jul 2",
+                "destination": "OSL",
+                "origin": "LHR"
+            },
+            {
+                "departureTime": "18:45",
+                "arrivalTime": "21:15",
+                "date": "Jul 9",
+                "destination": "LHR",
+                "origin": "OSL",
+                "confirmation": "314159265"
+            }
+        ],
+        "accommodation": [
+            {
+                "startDate": "Jul 2",
+                "endDate": "Jul 9",
+                "checkInTime": "15:00",
+                "checkOutTime": "12:00",
+                "name": "Grand Hotel Oslo",
+                "address": "Karl Johans gate 31, 0159 Oslo, Norway",
+                "phone": "+47 23 21 20 00",
+                "confirmation": "ty1234789yt410"
+            }
+        ],
+        "activities": [
+            {
+                "type": "restaurant",
+                "time": "19:00",
+                "date": "Jul 4",
+                "name": "Palace Grill",
+                "address": "Solligata 2, 0254 Oslo, Norway",
+                "confirmation": "99900022"
+            }
+        ]
+    }
+}
