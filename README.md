@@ -1,1 +1,6 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# Major League Packing
+## Quick Start
+```bash
+npm install
+npm run dev
+```
