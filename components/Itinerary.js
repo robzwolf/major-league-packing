@@ -7,6 +7,7 @@ export default function Itinerary({itinerary}) {
     return (
         <>
             <div className="itinerary">
+                <h2>Flights</h2>
                 {itinerary.flights.map(flight => (
                     <Flight
                         departureTime={flight.departureTime}
@@ -18,21 +19,13 @@ export default function Itinerary({itinerary}) {
                     />
                 ))}
 
+                <h2>Accommodation</h2>
                 {itinerary.accommodation.map(place => (
                     <AccommodationCheckIn
                         startDate={place.startDate}
                         checkInTime={place.checkInTime}
                         name={place.name}
                         address={place.address}
-                    />
-                ))}
-
-                {itinerary.restaurants.map(restaurant => (
-                    <Restaurant
-                        time={restaurant.time}
-                        date={restaurant.date}
-                        name={restaurant.name}
-                        address={restaurant.address}
                     />
                 ))}
 
@@ -44,6 +37,18 @@ export default function Itinerary({itinerary}) {
                         address={place.address}
                     />
                 ))}
+
+                <h2>Dining</h2>
+                {itinerary.restaurants.map(restaurant => (
+                    <Restaurant
+                        time={restaurant.time}
+                        date={restaurant.date}
+                        name={restaurant.name}
+                        address={restaurant.address}
+                    />
+                ))}
+
+
             </div>
             <style jsx>{`
                 .itinerary {
